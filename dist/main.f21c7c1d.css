@@ -541,37 +541,32 @@ button[data-v-57b22c0f] {
 }
 @keyframes dialog-open-data-v-cdbdd6e2 {
 0% {
-    top: -50%;
 }
 50% {
     opacity: 0.5;
 }
 100% {
-    top: 50%;
     opacity: 1;
 }
 }
 @keyframes dialog-close-data-v-cdbdd6e2 {
 0% {
-    /*transform: translateY(50%);*/
-    top: 50%;
 }
 50% {
     opacity: 0.5;
 }
 100% {
-    top: 150%;
 }
 }
 .dialog-body[data-v-cdbdd6e2] {
   position: fixed;
   z-index: 1;
   width: 90%;
-  top: 50%;
-  transform: translate(5%, -50%);
+  left: 5%;
   box-shadow: 1px 1px 10px black;
   border: 1px solid white;
   border-radius: 4px;
+  transition: all .6s;
 }
 .mask[data-v-cdbdd6e2] {
   position: absolute;
